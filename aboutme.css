@@ -1,0 +1,101 @@
+
+@media screen and (max-width: 600px){
+.container{
+  padding: 10px !important;
+  font-size: 12px !important;
+}
+.container-aboutme{
+  padding: 0px !important;
+}
+}
+
+
+
+@media screen and (max-width: 1098px){
+.header{
+  padding: 24px !important;
+}
+.menu-header{
+  font-size: 1.5rem !important;
+}
+.rights{
+  font-size: 10px !important;
+}
+.container-aboutme{
+  display: block !important;
+  margin-top: 0px !important;
+}
+.block-img{
+  display: flex;
+  justify-content: center;
+  height: 125px;
+  margin-top: 51px;
+}
+.description{
+  margin: 20px;
+}
+}
+
+.body{
+  background-color: black;
+}
+.menu-header{
+  font-size: 2rem;
+  color: grey;
+}
+.menu-header a{
+  text-decoration: none;
+  color: grey;
+  margin-right: 20px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #01040F;
+  padding: 40px;
+  box-shadow: 0 0 63px 48px #01040F;
+}
+
+#static{
+  width: 100%;
+  height: 22vh;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-black{
+  background-color: #01040F;
+  box-shadow: 0 0 63px 48px #01040F;
+  color: white;
+  padding: 40px;
+}
+
+.footer-black p{
+  font-size: 24px;
+}
+.text-aboutme{
+  display: flex;
+  justify-content: center;
+}
+
+body, html {
+  margin: 0;
+}
+
+.container-aboutme {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+.description{
+  max-width: 900px;
+  margin-top: 10%;
+}
+.picture-lucas{
+  border-radius: 105px;
+}
+.icon-github{
+  margin-right: 20px;
+}
+
